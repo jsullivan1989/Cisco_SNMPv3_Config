@@ -1,17 +1,11 @@
 #! /usr/bin/python3
 
 import os
-import getpass
-import csv
-import time
 import netmiko
 import paramiko
-import sys
 from netmiko.ssh_exception import NetMikoTimeoutException
 from paramiko.ssh_exception import SSHException
 from netmiko.ssh_exception import AuthenticationException
-from getpass import getpass
-from pprint import pprint
 from netmiko import ConnectHandler
 
 
